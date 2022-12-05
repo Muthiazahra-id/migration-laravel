@@ -1,0 +1,16 @@
+//CARA MEMBUAT DATABASE DI LARABEL
+php artisan make:seeder studentsSeeder 
+
+//mengrefesh database
+php artisan migrate:freshyes
+
+//CARA MEMBUAT TABLE DI DATABASE
+php artisan make:migration create_users//namadatabase_table
+
+//Cara menampilkan data ke database
+php artisan migrate:fresh --seed --seeder=KonsumenS 
+dan
+php artisan db:seed --class=Barangs
+
+//Menambahkan Folder Di Contoller
+php artisan make:controller
